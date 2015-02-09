@@ -238,7 +238,6 @@ Object.defineProperty(Socket.prototype, 'bytesWritten', {
 })
 
 Socket.prototype.destroy = function (exception) {
-	console.log('destroy');
 	var self = this
 	self._destroy(exception)
 }
